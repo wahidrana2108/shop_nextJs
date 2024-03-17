@@ -21,6 +21,25 @@ const HeaderTop = () => {
                         <BsLinkedin />
                     </div>
                 </div>
+
+                <div className="text-gray-500 text-[12px]">
+                    <b>FREE  SHIPPING</b> THIS WEEK ORDER OVER - $55
+                </div>
+
+                <div className="flex gap-4">
+                    <select className='text-gray-500 text-[12px] w-[70px]' name="currency" id="currency">
+                        <option value="USD">USD $</option>
+                        <option value="EUR">€ EUR</option>
+                        <option value="GBR">£ GBP</option>
+                    </select>
+                </div>
+
+                <div className="flex gap-4">
+                    <select className='text-gray-500 text-[12px] w-[80px]' name="language" id="language">
+                        <option value="English">English</option>
+                        <option value="Français">Français</option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
