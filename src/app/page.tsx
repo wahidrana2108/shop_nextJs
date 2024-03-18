@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import NewProducts from "@/components/NewProducts";
+import Testimonials from "@/components/Testimonials";
 import Image from "next/image";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main>
        <Hero />
        <NewProducts />
+       <Testimonials />
     </main>
   );
 }
